@@ -1,13 +1,17 @@
 {
   "pages":[
+
+    "pages/message/message",
+    "pages/contact/contact",
+    "pages/dynamic/dynamic",
     "pages/index/index",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#12b7f4",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black",
+    "navigationBarTextStyle":"white",
     "backgroundColor": "#fbf9fe"
   },
   "tabBar": {
@@ -16,18 +20,18 @@
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [{
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/message/message",
       "iconPath": "images/tab_message_normal.png",
       "selectedIconPath": "images/tab_message_selected.png",
       "text": "消息"
     }, {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/contact/contact",
       "iconPath": "images/tab_contact_normal.png",
       "selectedIconPath": "images/tab_contact_selected.png",
       "text": "联系人"
     },
      {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/dynamic/dynamic",
       "iconPath": "images/tab_dynamic_normal.png",
       "selectedIconPath": "images/tab_dynamic_selected.png",
       "text": "动态"
