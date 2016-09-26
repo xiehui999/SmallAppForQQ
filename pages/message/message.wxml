@@ -1,4 +1,21 @@
-  <view  class="container">
-    <text >消息</text>
-   <image class="image" src="{{urls[1]}}"></image>
+<view >
+  <view class="message__list">
+     <block wx:for="{{messages}}">
+        <navigator url="pages/dynamic/dynamic">
+          <view class="item" >
+             <view class="item-left">
+                  <image src="{{item.url}}" class="image"/>
+             </view>
+             <view class="item-middle">
+                  <view>
+                       <text class="title">{{item.title}}</text>
+                  </view>
+                  <view>
+                      <text class="message">{{item.message}}</text>
+                  </view>
+            </view>
+         </view>
+       </navigator>
+    </block>
   </view>
+</view>

@@ -1,7 +1,14 @@
+
+/**  作者：Code4Android
+ *   项目地址：https://github.com/xiehui999/SmallAppForQQ
+ *   新浪微博：http://weibo.com/745687294
+ *   CSDN  :    http://blog.csdn.net/xiehuimx?viewmode=contents
+ *   简书   :   http://www.jianshu.com/users/d5b531888b2b/latest_articles
+ * */
 Page({
   data:{
     // text:"这是一个页面"
-    urls:[
+    messages:[
       {
         title:"马云",
         url:"http://img1.3lian.com/gif/more/11/201212/0d1252b54be4f2d240b6b7fe4ed35054.jpg",
@@ -10,7 +17,7 @@ Page({
       {
         title:"马化腾",
         url:"http://img1.3lian.com/gif/more/11/201212/cd1d745ed855bef27f47c8aff0786067.jpg",
-        message:"哈哈哈，我要一统江湖啦，分分钟下线你的应用"
+        message:"哈哈哈，我要一统江湖啦，"
         },
       {
         title:"李彦宏",
@@ -35,7 +42,7 @@ Page({
       {
         title:"小程序",
         url:"http://img1.3lian.com/gif/more/11/201212/3fab6379b6ef53e7c17a1cc772eed0d6.jpg",
-        message:"这个IDE,把自动化全整进去了，都不要配置了"
+        message:"这个IDE方便都不要配置了"
         },
       {
         title:"微信应用号开发群",
