@@ -19,6 +19,7 @@
                 <view class="mark" wx:if="{{item.count>0}}"><text class="text">{{item.count}}</text></view>
             </view>
          </view>
+         <view  class="line"></view>
        </navigator>
     </block>
   </view>

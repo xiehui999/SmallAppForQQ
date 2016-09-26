@@ -10,6 +10,13 @@ Page({
     // text:"这是一个页面"
     messages:[
       {
+        title:"我的电脑",
+        url:"/images/icon.png",
+        message:"你已在电脑登录，可传文件到电脑。",
+        time:"21:15",
+        count:0
+      },
+      {
         title:"马云",
         url:"http://img1.3lian.com/gif/more/11/201212/0d1252b54be4f2d240b6b7fe4ed35054.jpg",
         message:"什么鬼，我有支付宝",
@@ -24,10 +31,17 @@ Page({
         count:22
         },
       {
+        title:"一声问候",
+        url:"/images/icon1.png",
+        message:"朋友生日要到了，送个祝福吧",
+        time:"14:23",
+        count:0
+      },
+      {
         title:"李彦宏",
         url:"http://img1.3lian.com/gif/more/11/201212/c011f2b2ab1a10d79fe931a786503d03.jpg",
          message:"抄袭我的吧，我早都做过了",
-        time:"15:13",
+        time:"12:13",
         count:1
          },
       {
