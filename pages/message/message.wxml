@@ -1,3 +1,4 @@
-  <view  >
+  <view  class="container">
     <text >消息</text>
+   <image class="image" src="{{urls[1]}}"></image>
   </view>
