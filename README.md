@@ -28,6 +28,7 @@
 2016/09/26 13:09  Realization funnction of message pagepage.
 
 2016/09/26 15:52  Perfect message page layout,add time,count field.
+
 2016/09/26 16:08  Add App picture and adjust the picture to center display for message .
 
 目前正在紧张的开发中...请稍后，持续更新
