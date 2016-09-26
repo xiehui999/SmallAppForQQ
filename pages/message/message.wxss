@@ -1,10 +1,79 @@
 .container{
-    margin: 5rpx;
-    background: "red"
+display: block;
 }
+.message_list{
+  background-color: #f2f2f2;
+  padding-left: 8rpx;
+  padding-right: 8rpx;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8rpx;
+  margin-left: 8rpx;
+  margin-right: 8rpx;
+  margin-top: 8rpx;
+  background-color: #fff;
+  border: 1rpx solid #eaeaea;
+  border-bottom: 1rpx solid #d0d0d0;
+  border-radius: 5rpx;
+}
+.item-left{
+    display: block;
+}
+
 .image{
-    width: 200px; 
-    height: 200px;
-    border-radius: 100px; 
+
+    width: 60rpx; 
+    height: 60rpx;
+    border-radius: 30rpx; 
     background-color: #eeeeee;
+}
+
+.item-middle{
+    flex: 1;
+    margin-left: 10rpx;
+    padding-top: 5rpx;
+    overflow: hidden;
+}
+.title{
+  color: #000000;
+  font-family:"微软雅黑";
+ /** font-weight:bold;*/
+  line-height: 10rpx;
+  padding: 32rpx 16rpx,0,16rpx;
+  font-size: 16rpx;
+  margin-top: 60rpx;
+  overflow: hidden; /*自动隐藏文字*/
+  text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+
+}
+.message{
+  font-family:"微软雅黑";
+  color: #808080;
+  line-height: 10rpx;
+  font-size: 14rpx;
+  padding: 0 16rpx,0,16rpx;
+  overflow: hidden; /**自动隐藏文字*/
+  text-overflow: ellipsis;/**文字隐藏后添加省略号*/
+  white-space: nowrap;/**强制不换行*/
+}
+.time{
+    color:#808080;
+    font-size: 8rpx;
+}
+.mark{
+    display: flex;
+    position:relative;
+    left:15rpx;
+    background-color:#F74c31; 
+    text-align: center; 
+    width: 40rpx;
+    height: 40rpx;
+    border-radius:20rpx; 
+    color: #ffffff;
+    display:table-cell;
+}
+.text{
 }

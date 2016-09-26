@@ -14,6 +14,10 @@
                       <text class="message">{{item.message}}</text>
                   </view>
             </view>
+            <view class="item_right">
+                <view><text class="time">{{item.time}}</text></view>
+                <view class="mark" wx:if="{{item.count>0}}"><text class="text">{{item.count}}</text></view>
+            </view>
          </view>
        </navigator>
     </block>

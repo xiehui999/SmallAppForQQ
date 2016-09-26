@@ -15,4 +15,6 @@
 2016/09/25 18:05  Solve the "Page注册错误"errorerror.
 2016/09/26 09:54  Add data in message.js file.
 2016/09/26 13:09  Realization funnction of message pagepage.
+2016/09/26 15:52  Perfect message page layout,add time,count field.
+
 目前正在紧张的开发中...请稍后，持续更新
