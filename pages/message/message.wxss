@@ -20,7 +20,9 @@ display: block;
   border-radius: 5rpx;
 }
 .item-left{
-    display: block;
+    margin-top: 20rpx;
+    display:table-cell;
+    text-align: center; 
 }
 
 .image{
