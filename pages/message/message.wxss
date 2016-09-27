@@ -73,6 +73,7 @@ display: block;
 
     position:relative;
     left:15rpx;
+    padding-top: 4rpx;
     background-color:#F74c31; 
     text-align: center;
     font-size: 10rpx; 
