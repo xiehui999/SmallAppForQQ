@@ -1,6 +1,27 @@
 .container{
 display: block;
 }
+.serach{
+    margin-top: 15rpx;
+    margin-left: 25rpx;
+    margin-right: 25rpx;
+    padding-left: 25rpx;
+    background-image: "../images/tab_message_selected.png";
+    background-color: #F3F3F3;
+    border-radius: 12rpx;
+
+}
+.serach_view{
+    display: none;
+    position: fixed;
+    margin-left:280rpx; 
+    margin-top:8rpx;
+    color: #808080;
+}
+.serach_view_show{
+    display: block;
+}
+
 .message_list{
   background-color: #f2f2f2;
   padding-left: 8rpx;

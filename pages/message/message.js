@@ -5,9 +5,13 @@
  *   CSDN  :    http://blog.csdn.net/xiehuimx?viewmode=contents
  *   简书   :   http://www.jianshu.com/users/d5b531888b2b/latest_articles
  * */
+     var focus
+    var isShowView
 Page({
   data:{
     // text:"这是一个页面"
+    focus:false,
+    isShowView:true,
     messages:[
       {
         title:"我的电脑",
@@ -101,6 +105,23 @@ Page({
         count:2
          }
     ]
+  },
+  bindfocus:function(){
+    this.setData({
+         focus:true
+    })
+    this.setData({
+      isShowView:false
+    })
+  },
+  bindblur:function(){
+
+          this.setData({
+      focus:false
+    })
+    this.setData({
+           isShowView:true
+    })
   },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数

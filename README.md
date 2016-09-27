@@ -33,6 +33,8 @@
 
 2016/09/26 22:46  Adjust layout
 
+2016/09/27 12:09  Add a search box for a message page .
+
 目前正在紧张的开发中...请稍后，持续更新
 
 
