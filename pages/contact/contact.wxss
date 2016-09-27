@@ -1,5 +1,5 @@
 .serach{
-    margin-top: 15rpx;
+    margin-top: 18rpx;
     margin-left: 25rpx;
     margin-right: 25rpx;
     padding-left: 25rpx;
@@ -10,10 +10,10 @@
 .serach_view_show{
     display: block;
     color: #808080;
-    margin-top: 15rpx;
-    margin-left: 25rpx;
-    margin-right: 25rpx;
-    padding-left: 275rpx;
+    padding-left: 285rpx;
+    padding-top: 15rpx;
+    padding-bottom: 15rpx;
+    font-size: 18rpx;
     background-color: #F3F3F3;
     border-radius: 12rpx;
 }
@@ -27,14 +27,25 @@
   justify-content: space-between;
   padding: 8rpx;
   margin-left: 68rpx;
+  margin-bottom: 13rpx;
   margin-right: 72rpx;
-  margin-top: 28rpx;
   background-color: #fff;
 }
 .item-left{
-    margin-top: 15rpx;
+    margin-top: 10rpx;
     display:table-cell;
-    text-align: center; 
+
+}
+.item-middle{
+    flex: 1;
+    margin-top: 10rpx;
+    display:table-cell;
+
+}
+.item_right{
+    display: block;
+    margin-top: 10rpx;
+
 }
 .text{
   color: #000000;
@@ -45,21 +56,14 @@
   padding-left: 10rpx;
 }
 .image{
-
     width: 88rpx; 
     height: 88rpx;
     border-radius: 44rpx; 
     background-color: #eeeeee;
 }
 
-.item-middle{
-    flex: 1;
-    margin-left: 10rpx;
-    padding-top: 13rpx;
-    overflow: hidden;
-}
-.item_right{
-    display: block;
-    padding-top: 13rpx;
-    overflow: hidden; 
+.line{
+    height: 36rpx;
+    width:100%;
+    background-color: #F8F9FA;
 }
