@@ -106,6 +106,15 @@ Page({
          }
     ]
   },
+  bindtap:function(event){
+     console.log(event)
+    this.setData({
+         focus:true
+    })
+    this.setData({
+      isShowView:false
+    })
+  },
   bindfocus:function(){
     this.setData({
          focus:true

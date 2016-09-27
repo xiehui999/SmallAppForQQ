@@ -1,8 +1,8 @@
 <view  stytle=" overflow-x: hidden; overflow-y: auto;">
 <view class="serach">
-<view class="serach_view  {{isShowView ? 'serach_view_show' : ''}}"> 搜索</view>
- <input  bindfocus="bindfocus" bindblur="bindblur" focus="{{focus}}" />
-  </view>
+<view class="serach_view  {{isShowView ? 'serach_view_show' : ''}}" bindtap="bindtap"> 搜索</view>
+</view>
+  <input  class ="input_view {{!isShowView ? 'input_view_show' : ''}}"  bindfocus="bindfocus" bindblur="bindblur"  focus="{{focus}}" />
   <view class="message__list">
      <block wx:for="{{messages}}">
         <navigator url="pages/dynamic/dynamic">
