@@ -1,0 +1,5 @@
+<view  stytle=" overflow-x: hidden; overflow-y: auto;">
+<view class="serach">
+<view class="serach_view_show" > 搜索</view>
+</view>
+</view>

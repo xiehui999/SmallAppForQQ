@@ -1,0 +1,19 @@
+.serach{
+    margin-top: 15rpx;
+    margin-left: 25rpx;
+    margin-right: 25rpx;
+    padding-left: 25rpx;
+    background-color: #F3F3F3;
+    border-radius: 12rpx;
+
+}
+.serach_view_show{
+    display: block;
+    color: #808080;
+    margin-top: 15rpx;
+    margin-left: 25rpx;
+    margin-right: 25rpx;
+    padding-left: 275rpx;
+    background-color: #F3F3F3;
+    border-radius: 12rpx;
+}

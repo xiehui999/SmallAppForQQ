@@ -107,13 +107,9 @@ Page({
     ]
   },
   bindtap:function(event){
-     console.log(event)
-    this.setData({
-         focus:true
-    })
-    this.setData({
-      isShowView:false
-    })
+wx.navigateTo({
+  url: "search/search"
+})
   },
   bindfocus:function(){
     this.setData({
