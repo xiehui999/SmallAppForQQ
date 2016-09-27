@@ -35,6 +35,9 @@
 
 2016/09/27 12:09  Add a search box for a message page .
 
+2016/09/27 18:33  Add part of the function of the contact page.
+
+
 目前正在紧张的开发中...请稍后，持续更新
 
 

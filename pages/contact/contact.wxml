@@ -1,4 +1,19 @@
-  
-  <view  >
-    <text >联系人</text>
-  </view>
+<view  stytle=" overflow-x: hidden; overflow-y: auto;">
+<view class="serach">
+<view class="serach_view_show" bindtap="bindtap"> 搜索</view>
+</view>
+<view  class="item">
+    <view class="item_left" class="top_image">
+        <image src="/images/friend.png" class="image"/>
+        <view class="mark" ><text class="text">新朋友</text></view>
+    </view>
+    <view class="item_right" class="top_image">
+        <image src="/images/chart1.png" class="image"/>
+        <view class="mark" ><text class="text">群聊</text></view>
+    </view>
+    <view class="item_right" class="top_image">
+        <image src="/images/public.png" class="image"/>
+        <view class="mark" ><text class="text">公众号</text></view>
+    </view>
+</view>
+</view>

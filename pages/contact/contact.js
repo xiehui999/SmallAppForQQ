@@ -22,5 +22,10 @@ Page({
   },
   onUnload:function(){
     // 页面关闭
-  }
+  },
+  bindtap:function(event){
+wx.navigateTo({
+  url: "/pages/message/search/search"
+})
+  },
 })
