@@ -52,7 +52,7 @@
   font-family:"微软雅黑";
   line-height: 10rpx;
   font-size: 22rpx;
-  padding-left: 5rpx;
+  padding-left: 1rpx;
 }
 .text-middle{
   color: #000000;
