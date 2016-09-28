@@ -98,7 +98,7 @@
     text-align: center;
 }
 .line-narrow{
-    height: 2rpx;
+    height: 1px;
     width:100%;
     background-color: #E0E1E2;
 }
