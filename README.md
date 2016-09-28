@@ -16,6 +16,7 @@
 进度更新：
 
 ![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/qq.png)
+![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/contact.png)
 
 2016/09/25 00:37  Add images,Realization funnction QQ tab.
 
@@ -36,6 +37,8 @@
 2016/09/27 12:09  Add a search box for a message page .
 
 2016/09/27 18:33  Add part of the function of the contact page.
+
+2016/09/28 20:22 Add group function of the contact page.
 
 
 目前正在紧张的开发中...请稍后，持续更新
