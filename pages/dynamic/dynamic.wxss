@@ -50,7 +50,6 @@
 .text{
   color: #000000;
   font-family:"微软雅黑";
-  font-weight:bold;
   line-height: 10rpx;
   font-size: 22rpx;
   padding-left: 5rpx;
@@ -58,11 +57,11 @@
 .text-middle{
   color: #000000;
   font-family:"微软雅黑";
-  font-weight:bold;
   line-height: 10rpx;
   font-size: 22rpx;
   padding-left: 20rpx;
 }
+
 .image{
     width: 88rpx; 
     height: 88rpx;
@@ -72,7 +71,8 @@
 .tree_image_left{
     width: 50rpx; 
     height: 50rpx;
-    background-color: #eeeeee;
+    padding-top: 5rpx;
+
 }
 .line{
     height: 36rpx;
@@ -90,9 +90,13 @@
    margin-bottom: 7px;
 }
 .groumName{
+    
+  position: absolute;
+    font-weight:bold;
   color: #000000;
   font-family:"微软雅黑";
   font-size:22rpx;
+  margin-top: 13rpx;
   padding-left: 30rpx;
 }
 .tree_image_right{

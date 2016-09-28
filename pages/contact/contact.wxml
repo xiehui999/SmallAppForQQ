@@ -22,13 +22,14 @@
 </view>
 <view  class="line"></view>
   <view class="message__list">
-     <block wx:for="{{messages}}" >
+     <block wx:for="{{messages}}"  wx:for-index="idx">
           <view class="item-tree" >
             <image src="{{item.icon}}" class="tree_image"/>
             <text class="title">{{item.groupName}}</text>
              <text class="time">{{item.number}}</text>
             </view>
-         <view  class="line-narrow"></view>
+          <view  class="line" wx:if="{{idx==1}}"></view>
+         <view  class="line-narrow"wx:if="{{idx!=1}}" ></view>
       </block>
   </view>
 </view>

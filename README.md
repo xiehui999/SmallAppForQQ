@@ -16,7 +16,10 @@
 进度更新：
 
 ![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/qq.png)
+
 ![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/contact.png)
+
+![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/dynamic.png)
 
 2016/09/25 00:37  Add images,Realization funnction QQ tab.
 
@@ -42,6 +45,7 @@
 
 2016/09/28 13:34 Realization funnction of dynamic page.
 
+2016/09/28 16:37 Adjust layout.
 
 目前正在紧张的开发中...请稍后，持续更新
 
