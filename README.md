@@ -40,6 +40,8 @@
 
 2016/09/28 20:22 Add group function of the contact page.
 
+2016/09/28 13:34 Realization funnction of dynamic page.
+
 
 目前正在紧张的开发中...请稍后，持续更新
 

@@ -13,7 +13,7 @@
     </view>
     <view class="item_right" class="top_image" bindtap="isShowToast">
         <image src="/images/chart.png" class="image"/>
-        <view class="mark" ><text class="text">群聊</text></view>
+        <view class="mark" ><text class="text-middle">群聊</text></view>
     </view>
     <view class="item_right" class="top_image" bindtap="isShowToast">
         <image src="/images/public.png" class="image"/>

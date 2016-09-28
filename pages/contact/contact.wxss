@@ -28,6 +28,7 @@
   padding: 8rpx;
   margin-left: 68rpx;
   margin-bottom: 13rpx;
+  margin-top: 13rpx;
   margin-right: 72rpx;
   background-color: #fff;
 }
@@ -53,6 +54,14 @@
   line-height: 10rpx;
   font-size: 22rpx;
   padding-left: 10rpx;
+}
+.text-middle{
+  color: #000000;
+  font-family:"微软雅黑";
+  font-weight:bold;
+  line-height: 10rpx;
+  font-size: 22rpx;
+  padding-left: 17rpx;
 }
 .image{
     width: 88rpx; 

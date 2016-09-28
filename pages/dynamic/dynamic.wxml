@@ -1,3 +1,34 @@
-  <view  >
-    <text >动态</text>
+<view  stytle=" overflow-x: hidden; overflow-y: auto;">
+<view class="serach">
+<view class="serach_view_show" bindtap="bindtap"> 搜索</view>
+</view>
+ <toast hidden="{{isHiddenToast}}" stytle="display:flex  width:100rpx" duration="1000" bindchange="toastChange">
+    努力开发中...
+  </toast>
+<view  class="item">
+
+    <view class="item_left" class="top_image"  bindtap="isShowToast">
+        <image src="/images/zone.png" class="image"/>
+        <view class="mark" ><text class="text">好友动态</text></view>
+    </view>
+    <view class="item_right" class="top_image" bindtap="isShowToast">
+        <image src="/images/vicinity.png" class="image"/>
+        <view class="mark" ><text class="text-middle">附近</text></view>
+    </view>
+    <view class="item_right" class="top_image" bindtap="isShowToast">
+        <image src="/images/tribe.png" class="image"/>
+        <view class="mark" ><text class="text">兴趣部落</text></view>
+    </view>
+</view>
+<view  class="line"></view>
+  <view class="message__list">
+     <block wx:for="{{messages}}" >
+          <view class="item-tree" >
+            <image src="{{item.icon}}" class="tree_image_left"/>
+            <text class="groumName">{{item.groupName}}</text>
+             <image src="{{item.rightImage}}" class="tree_image_right"/>
+            </view>
+         <view  class="line-narrow"></view>
+      </block>
   </view>
+</view>

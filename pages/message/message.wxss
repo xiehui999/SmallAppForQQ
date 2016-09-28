@@ -103,7 +103,7 @@ display: block;
     display:table-cell;
 }
 .line{
-    height: 2rpx;
+    height: 1px;
     width:100%;
     background-color: #E0E1E2;
 }

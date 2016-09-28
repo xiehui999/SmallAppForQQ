@@ -7,6 +7,65 @@
 Page({
   data:{
     // text:"这是一个页面"
+    isHiddenToast:true,
+    messages:[
+      {
+        groupName:"游戏",
+        icon:"/images/game.png",
+        rightImage:"/images/tip.png"
+      },
+      {
+        groupName:"日迹",
+        icon:"/images/weather.png",
+        rightImage:"/images/tip.png"
+      },
+      {
+        groupName:"看点",
+        icon:"/images/kan.png",
+        rightImage:"/images/tip.png"
+        },
+      {
+        groupName:"音乐",
+        icon:"/images/song.png",
+        rightImage:"/images/tip.png"
+      },
+      {
+        groupName:"直播",
+        icon:"/images/video.png",
+        rightImage:"/images/tip.png"
+         },
+      {
+        groupName:"附近的群",
+        icon:"/images/qun.png",
+        rightImage:"/images/tip.png"
+        },
+      {
+        groupName:"同城服务",
+        icon:"/images/cityse.png",
+        rightImage:"/images/tip.png"
+        },
+      {
+        groupName:"运动",
+        icon:"/images/sport.png",
+        rightImage:"/images/tip.png"
+        },
+      {
+        groupName:"腾讯课堂",
+        icon:"/images/class.png",
+        rightImage:"/images/tip.png"
+        }
+    ]
+  },
+
+  isShowToast:function(){
+    this.setData({
+      isHiddenToast:false
+    })
+  },
+  toastChange:function(){
+    this.setData({
+      isHiddenToast:true
+    })
   },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
@@ -22,5 +81,10 @@ Page({
   },
   onUnload:function(){
     // 页面关闭
-  }
+  },
+  bindtap:function(event){
+wx.navigateTo({
+  url: "/pages/message/search/search"
+})
+  },
 })
