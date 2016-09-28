@@ -17,7 +17,14 @@
     </view>
 </view>
 <view  class="line"></view>
-
-
-
+  <view class="message__list">
+     <block wx:for="{{messages}}" >
+          <view class="item-tree" >
+            <image src="{{item.icon}}" class="tree_image"/>
+            <text class="title">{{item.groupName}}</text>
+             <text class="time">{{item.number}}</text>
+            </view>
+         <view  class="line-narrow"></view>
+      </block>
+  </view>
 </view>

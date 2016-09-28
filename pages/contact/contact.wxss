@@ -34,7 +34,6 @@
 .item-left{
     margin-top: 10rpx;
     display:table-cell;
-
 }
 .item-middle{
     flex: 1;
@@ -61,9 +60,45 @@
     border-radius: 44rpx; 
     background-color: #eeeeee;
 }
-
+.tree_image{
+    width: 28rpx; 
+    height: 28rpx;
+    background-color: #eeeeee;
+}
 .line{
     height: 36rpx;
     width:100%;
     background-color: #F8F9FA;
+}
+.message_list{
+    display: flex;
+  background-color: #f2f2f2;
+  margin-bottom: 15px;
+}
+.item-tree {
+  padding-left: 32rpx;
+  margin-top: 7rpx;
+   margin-bottom: 7px;
+}
+.title{
+  color: #000000;
+  font-family:"微软雅黑";
+  font-size:22rpx;
+  padding-left: 30rpx;
+}
+.time{
+    position: absolute;
+    right: 15rpx;
+    color:#808080;
+    font-size: 8rpx;
+    text-align: right;
+}
+.item-tree-middle{
+    margin-top: 15rpx;
+    text-align: center;
+}
+.line-narrow{
+    height: 2rpx;
+    width:100%;
+    background-color: #E0E1E2;
 }
