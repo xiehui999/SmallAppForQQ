@@ -70,8 +70,8 @@
     background-color: #eeeeee;
 }
 .tree_image{
-    width: 28rpx; 
-    height: 28rpx;
+    width: 24rpx; 
+    height: 24rpx;
     background-color: #eeeeee;
 }
 .line{

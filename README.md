@@ -7,6 +7,10 @@
    CSDN  :    http://blog.csdn.net/xiehuimx?viewmode=contents
    
    简书   :   http://www.jianshu.com/users/d5b531888b2b/latest_articles
+
+
+##再次提醒，直接装官方软件,链接在下面。有什么问题可在博客留言.或者微博私信
+
    
 
 创建微信小程序(微信应用号)，后续开发仿QQ应用程序
@@ -25,7 +29,7 @@
 
 2016/09/25 12:28  Create pages of message,contact,dynamic and  create dynamic title bar.
 
-2016/09/25 18:05  Solve the "Page注册错误"errorerror.
+2016/09/25 18:05  Solve the "Page注册错误"error.
 
 2016/09/26 09:54  Add data in message.js file.
 
