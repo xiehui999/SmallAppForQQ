@@ -72,7 +72,7 @@
 .tree_image{
     width: 24rpx; 
     height: 24rpx;
-    background-color: #eeeeee;
+    background-color: #ffffff;
 }
 .line{
     height: 36rpx;
