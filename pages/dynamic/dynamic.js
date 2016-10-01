@@ -67,6 +67,37 @@ Page({
       isHiddenToast:true
     })
   },
+  bindtap0:function(){
+         console.log(0)
+  },
+  bindtap1:function(){
+         console.log(1)
+  },
+
+  bindtap2:function(){
+         console.log(2)
+  },  
+  bindtap3:function(){
+         console.log(3)
+         wx.navigateTo({
+           url:"/music/music"
+         });
+  },
+  bindtap4:function(){
+         console.log(4)
+  },
+  bindtap5:function(){
+         console.log(5)
+  },
+  bindtap6:function(){
+         console.log(6)
+  },
+  bindtap7:function(){
+         console.log(7)
+  },
+  bindtap8:function(){
+         console.log(8)
+  },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
   },

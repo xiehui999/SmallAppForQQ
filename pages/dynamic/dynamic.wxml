@@ -24,7 +24,7 @@
   <view class="message__list">
      <block wx:for="{{messages}}" wx:for-index="idx">
 
-          <view class="item-tree" >
+          <view class="item-tree" bindtap="bindtap{{idx}}">
             <image src="{{item.icon}}" class="tree_image_left"/>
             <text class="groumName">{{item.groupName}}</text>
              <image src="{{item.rightImage}}" class="tree_image_right"/>

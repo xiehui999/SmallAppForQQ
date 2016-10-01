@@ -5,6 +5,7 @@
     "pages/message/message",
     "pages/contact/contact",
     "pages/dynamic/dynamic",
+     "pages/dynamic/music/music",
     "pages/index/index",
     "pages/logs/logs"
   ],

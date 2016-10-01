@@ -19,11 +19,11 @@
 
 进度更新：
 
-![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/qq.png)
+![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/demo/qq.png)
 
-![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/contact.png)
+![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/demo/contact.png)
 
-![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/dynamic.png)
+![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/demo/dynamic.png)
 
 2016/09/25 00:37  Add images,Realization funnction QQ tab.
 
@@ -54,7 +54,7 @@
 2016/09/28 20:30 添加微信官方demo（weixinapp-demo.zip） ，小程序的所有组件接口都在demo中有体现，是一个初入学习最好的材料。
                  注意下载文件后解压文件到其它目录，不要解压到SmallmallAppForQQ目录下，不然运行可能会出现问题。
 
-
+2016/09/10/01  Add  bindtap for dynamic and create music page
 目前正在紧张的开发中...请稍后，持续更新
 
 
@@ -68,4 +68,4 @@
 ##[3. 小程序开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/index.html)
 ##[Windows 64](https://servicewechat.com/wxa-dev-logic/download_redirect?type=x64&amp;from=mpwiki&amp;t=1474887501301),[Windows 32](https://servicewechat.com/wxa-dev-logic/download_redirect?type=ia32&amp;from=mpwiki&amp;t=1474887501301),[MAC](https://servicewechat.com/wxa-dev-logic/download_redirect?type=darwin&amp;from=mpwiki&amp;t=1474887501301)
 
-
+##[4. 小程序官方demo](https://github.com/xiehui999/SmallAppForQQ/blob/master/weixinapp-demo.zip)
