@@ -4,10 +4,11 @@ Page({
   },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
-    console.log(options);
+    
   },
   onReady:function(){
     // 页面渲染完成
+    //NavigationBarTitle如果此处和json文件都设置，最后展示此处的标题栏
   },
   onShow:function(){
     // 页面显示

@@ -80,8 +80,8 @@ Page({
   bindtap3:function(){
          console.log(3)
          wx.navigateTo({
-           url:"/music/music"
-         });
+           url:"/pages/dynamic/music/music"
+         })
   },
   bindtap4:function(){
          console.log(4)
