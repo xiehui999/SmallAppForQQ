@@ -5,14 +5,14 @@
     "pages/message/message",
     "pages/contact/contact",
     "pages/dynamic/dynamic",
-     "pages/dynamic/music/music",
+    "pages/dynamic/music/music",
     "pages/index/index",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#12b7f4",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "WeChatForQQ",
     "navigationBarTextStyle":"white",
     "backgroundColor": "#fbf9fe"
   },
