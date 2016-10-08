@@ -1,7 +1,11 @@
+
+ <toast hidden="{{isHiddenToast}}" stytle="display:flex  width:100rpx" duration="1000" bindchange="toastChange">
+    努力开发中...
+  </toast>
 <view  class="tab">
-        <view class="{{active1 == true ? 'select' : 'selectnot'}}" bindtap="tab1">我的</view>
-        <view class="{{active2 == true ? 'select' : 'selectnot'}}" bindtap="tab2" >好友在听</view>
-        <view class="{{active3 == true ? 'select' : 'selectnot'}}" bindtap="tab3">电台</view>
+        <view class="{{select1 == true ? 'select' : 'selectnot'}}" bindtap="tab1">我的</view>
+        <view class="{{select2 == true ? 'select' : 'selectnot'}}" bindtap="tab2" >好友在听</view>
+        <view class="{{select3 == true ? 'select' : 'selectnot'}}" bindtap="tab3">电台</view>
 </view>
           <view class="itemtop" >
             <image src="http://img1.3lian.com/gif/more/11/201212/411cffabcd6e4474b48f1ecac76e1b3f.jpg" class="itemtop_left_image"/>

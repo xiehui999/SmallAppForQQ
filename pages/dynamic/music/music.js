@@ -1,29 +1,40 @@
 Page({
   data:{
     // text:"这是一个页面"
-    active1:true,
-    active2:false,
-    active3:false,
+    select1:true,
+    select2:false,
+    select3:false,
+    isHiddenToast:true,
+  },
+  isShowToast:function(){
+    this.setData({
+      isHiddenToast:false
+    })
+  },
+  toastChange:function(){
+    this.setData({
+      isHiddenToast:true
+    })
   },
   tab1:function(){
  this.setData({
-      active1:true,
-    active2:false,
-    active3:false,
+    select1:true,
+    select2:false,
+    select3:false,
  })
   },
   tab2:function(){
  this.setData({
-      active1:false,
-    active2:true,
-    active3:false,
+    select1:false,
+    select2:true,
+    select3:false,
  })
   },
   tab3:function(){
  this.setData({
-      active1:false,
-    active2:false,
-    active3:true,
+    select1:false,
+    select2:false,
+    select3:true,
  })
   },
   onLoad:function(options){
