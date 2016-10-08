@@ -54,6 +54,9 @@
                  注意下载文件后解压文件到其它目录，不要解压到SmallmallAppForQQ目录下，不然运行可能会出现问题。
 
 2016/09/10/01  Add  bindtap for dynamic and create music page
+
+2016/09/10/08  Achieve part of funnction of music page.
+
 目前正在紧张的开发中...请稍后，持续更新
 
 

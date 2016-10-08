@@ -7,15 +7,15 @@
   </toast>
 <view  class="item">
 
-    <view class="item_left" class="top_image"  bindtap="isShowToast">
+    <view class="item_right"  bindtap="isShowToast">
         <image src="/images/zone.png" class="image"/>
         <view class="mark" ><text class="text">好友动态</text></view>
     </view>
-    <view class="item_right" class="top_image" bindtap="isShowToast">
+    <view class="item_right"  bindtap="isShowToast">
         <image src="/images/vicinity.png" class="image"/>
         <view class="mark" ><text class="text-middle">附近</text></view>
     </view>
-    <view class="item_right" class="top_image" bindtap="isShowToast">
+    <view class="item_right"  bindtap="isShowToast">
         <image src="/images/tribe.png" class="image"/>
         <view class="mark" ><text class="text">兴趣部落</text></view>
     </view>

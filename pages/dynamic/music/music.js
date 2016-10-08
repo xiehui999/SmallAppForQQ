@@ -1,6 +1,30 @@
 Page({
   data:{
     // text:"这是一个页面"
+    active1:true,
+    active2:false,
+    active3:false,
+  },
+  tab1:function(){
+ this.setData({
+      active1:true,
+    active2:false,
+    active3:false,
+ })
+  },
+  tab2:function(){
+ this.setData({
+      active1:false,
+    active2:true,
+    active3:false,
+ })
+  },
+  tab3:function(){
+ this.setData({
+      active1:false,
+    active2:false,
+    active3:true,
+ })
   },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数

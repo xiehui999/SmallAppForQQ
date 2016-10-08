@@ -1,1 +1,36 @@
-<view>音樂</view>
+<view  class="tab">
+        <view class="{{active1 == true ? 'select' : 'selectnot'}}" bindtap="tab1">我的</view>
+        <view class="{{active2 == true ? 'select' : 'selectnot'}}" bindtap="tab2" >好友在听</view>
+        <view class="{{active3 == true ? 'select' : 'selectnot'}}" bindtap="tab3">电台</view>
+</view>
+          <view class="itemtop" >
+            <image src="http://img1.3lian.com/gif/more/11/201212/411cffabcd6e4474b48f1ecac76e1b3f.jpg" class="itemtop_left_image"/>
+             <view class="item-middle">
+                  <view>
+                       <text class="itemtop_mess">Code4Android</text>
+                  </view>
+                  <view>
+                      <text class="itemtop_mess2">好友排行</text>
+                  </view>
+            </view>
+            <view class="item_right">
+                <view><text class="time">{{item.time}}</text></view>
+                <image src="/images/tip.png" class="image"/>
+            </view>
+         </view>
+         <view  class="line"></view>
+<view  class="item">
+    <view class="item_left"  bindtap="isShowToast">
+        <image src="/images/like.png" class="image"/>
+        <view class="mark" ><text class="text">我喜欢</text></view>
+    </view>
+    <view class="item_middle" bindtap="isShowToast">
+        <image src="/images/songmenu.png" class="image"/>
+        <view class="mark" ><text class="text">我的歌单</text></view>
+    </view>
+    <view class="item_right" bindtap="isShowToast">
+        <image src="/images/replay.png" class="image"/>
+        <view class="mark" ><text class="text">最近播放</text></view>
+    </view>
+</view>
+<view  class="line"></view>

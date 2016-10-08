@@ -17,9 +17,6 @@
     background-color: #F3F3F3;
     border-radius: 12rpx;
 }
-.top_image{
-    display: table-column
-}
 
 .item {
   display: flex;
@@ -34,16 +31,16 @@
 }
 .item-left{
     margin-top: 10rpx;
-    display:table-cell;
+    display: table-column
 }
 .item-middle{
     flex: 1;
     margin-top: 10rpx;
-    display:table-cell;
+    display: table-column
 
 }
 .item_right{
-    display: block;
+    display: table-column;
     margin-top: 10rpx;
 
 }
@@ -65,8 +62,6 @@
 .image{
     width: 88rpx; 
     height: 88rpx;
-    border-radius: 44rpx; 
-    background-color: #eeeeee;
 }
 .tree_image_left{
     width: 50rpx; 
@@ -92,7 +87,7 @@
 .groumName{
     
   position: absolute;
-    font-weight:bold;
+  font-weight:bold;
   color: #000000;
   font-family:"微软雅黑";
   font-size:22rpx;
