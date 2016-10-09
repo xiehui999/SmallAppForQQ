@@ -38,3 +38,10 @@
     </view>
 </view>
 <view  class="line"></view>
+<view class="song_item"  wx:for="{{songlist}}"  bindtap="play" data-num="{{index}}">
+      <image class="song_image" src="{{item.albumpic_small}}"></image>
+       <view class="song_info">
+            <text class="songname">{{item.songname}}</text>
+            <text class="singername">{{item.singername}}</text>
+       </view>
+</view>

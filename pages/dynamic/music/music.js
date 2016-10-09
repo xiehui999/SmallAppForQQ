@@ -5,6 +5,7 @@ Page({
     select2:false,
     select3:false,
     isHiddenToast:true,
+    songlist:[],
   },
   isShowToast:function(){
     this.setData({
@@ -37,9 +38,35 @@ Page({
     select3:true,
  })
   },
+    play: function (event) {
+    var that = this
+    console.log(event);
+    var res=that.data.songlist[event.currentTarget.dataset.num]
+    wx.playBackgroundAudio({
+      dataUrl: res.url,
+      name: res.songname,
+      singer:res.singername,
+      coverImgUrl: res.albumpic_small,
+      complete: function (res) {
+      }
+    })
+  },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
-    
+        var that = this
+    wx.request({
+      url: 'https://route.showapi.com/213-4?showapi_appid=25158&topid=5&showapi_sign=c0d685445898438f8c12ee8e93c2ee74',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      success: function (res) {
+          console.log(res);
+          console.log(res.data.showapi_res_body.pagebean.songlist);
+         that.setData({
+           songlist: res.data.showapi_res_body.pagebean.songlist
+         })
+      }
+    })
   },
   onReady:function(){
     // 页面渲染完成

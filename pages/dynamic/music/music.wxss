@@ -86,3 +86,41 @@
 .selectnot{
 	color: #787878;
 }
+.song_item{
+    height:80rpx;
+    width:100%;
+    display: flex;
+    flex: row;
+    border-bottom: #eeeeee 1rpx solid;
+    padding:10rpx 10rpx 10rpx 10rpx;
+    align-items: center;
+}
+.song_image{
+    height:80rpx;
+    width:80rpx;
+    margin-left: 30rpx;
+    border-radius: 10rpx;
+}
+
+.song_info{
+    display: block;
+    margin-left: 20rpx;
+}
+.songname{
+    font-weight:bold;
+    color: #000000;
+    font-family:"微软雅黑";
+    font-size:20rpx;
+    line-height: 20px;
+    display:block;/*内联对象需加*/ 
+    width:550rpx; 
+    word-break:keep-all;/* 不换行 */ 
+    white-space:nowrap;/* 不换行 */ 
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */ 
+    text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/ 
+}
+.singername{
+     color: #787878;
+     font-size:16rpx;
+     line-height: 20px;
+}
