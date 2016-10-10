@@ -10,7 +10,7 @@
 
 
 ##再次提醒，直接装官方软件,链接在下面。有什么问题可在博客留言.或者微博私信
-
+##音乐信息使用的第三方接口，由于是免费的，限制每秒请求2次，所以可能会出现音乐加载失败问题。
 
 创建微信小程序(微信应用号)，后续开发仿QQ应用程序
 
@@ -23,6 +23,8 @@
 ![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/demo/contact.png)
 
 ![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/demo/dynamic.png)
+
+![](https://github.com/xiehui999/SmallAppForQQ/blob/master/images/demo/music.png)
 
 2016/09/25 00:37  Add images,Realization funnction QQ tab.
 
@@ -56,6 +58,8 @@
 2016/09/10/01  Add  bindtap for dynamic and create music page
 
 2016/09/10/08  Achieve part of funnction of music page.
+
+2016/09/10/10  Add random play music function.
 
 目前正在紧张的开发中...请稍后，持续更新
 

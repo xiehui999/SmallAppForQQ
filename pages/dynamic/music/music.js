@@ -51,6 +51,19 @@ Page({
       }
     })
   },
+  randomStart:function(event){
+    var that = this
+    var random=Math.floor(Math.random()*50);
+    var res=that.data.songlist[random]
+    wx.playBackgroundAudio({
+      dataUrl: res.url,
+      name: res.songname,
+      singer:res.singername,
+      coverImgUrl: res.albumpic_small,
+      complete: function (res) {
+      }
+    })
+  },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
         var that = this

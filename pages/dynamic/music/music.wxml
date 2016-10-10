@@ -37,7 +37,14 @@
         <view class="mark" ><text class="text">最近播放</text></view>
     </view>
 </view>
-<view  class="line"></view>
+<view  class="linesmall"></view>
+<view  class="item-tree">
+        <image src="/images/start.png" bindtap="randomStart"   class="startImage"/>
+        <view class="randomStart" bindtap="randomStart" >随机播放</view>
+        <image src="/images/download.png"    class="downImage"/>
+        <view class="download" >下载到手机</view>
+</view>
+<view  class="linesmall"></view>
 <view class="song_item"  wx:for="{{songlist}}"  bindtap="play" data-num="{{index}}">
       <image class="song_image" src="{{item.albumpic_small}}"></image>
        <view class="song_info">

@@ -9,6 +9,41 @@
   margin-right: 72rpx;
   background-color: #fff;
 }
+.item-tree {
+  display: flex;
+  padding-left: 32rpx;
+  margin-top: 7rpx;
+   margin-bottom: 7px;
+}
+.randomStart{
+  color: #000000;
+  font-family:"微软雅黑";
+  font-weight:bold;
+  font-size: 22rpx;
+  padding-top: 13rpx;
+  padding-left: 25rpx;
+}
+.download{
+  position: absolute;
+  right: 80rpx;
+  color: #000000;
+  font-family:"微软雅黑";
+  font-weight:bold;
+  font-size: 22rpx;
+  padding-top: 13rpx;
+  padding-left: 1rpx;
+}
+.startImage{
+    width: 44rpx; 
+    height: 44rpx;
+    padding-top: 10rpx;
+}
+.downImage{
+    width: 44rpx; 
+    height: 44rpx;
+    margin-left: 285rpx;
+    padding-top: 10rpx;
+}
 .itemtop{
   display: flex;
   flex-direction: row; 
@@ -54,7 +89,11 @@
     width:100%;
     background-color: #F8F9FA;
 }
-
+.linesmall{
+    height: 1px;
+    width:100%;
+    background-color: #F8F9FA;
+}
 .text{
   color: #000000;
   font-family:"微软雅黑";
