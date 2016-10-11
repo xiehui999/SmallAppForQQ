@@ -4,7 +4,7 @@
 </view>
   <view class="message__list">
      <block wx:for="{{messages}}">
-        <navigator url="pages/dynamic/dynamic">
+        <navigator url="/pages/message/chat/chat">
           <view class="item" >
              <view class="item-left">
                   <image src="{{item.url}}" class="image"/>
