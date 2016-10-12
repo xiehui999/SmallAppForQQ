@@ -6,6 +6,8 @@
     "pages/contact/contact",
     "pages/dynamic/dynamic",
     "pages/dynamic/music/music",
+    "pages/message/chat/chat",
+    "pages/message/search/search",
     "pages/index/index",
     "pages/logs/logs"
   ],
