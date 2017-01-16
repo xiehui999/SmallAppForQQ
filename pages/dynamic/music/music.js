@@ -1,11 +1,35 @@
 Page({
   data:{
     // text:"这是一个页面"
-    select1:true,
-    select2:false,
-    select3:false,
+    //select1:true,
+    //select2:false,
+    //select3:false,
     isHiddenToast:true,
     songlist:[],
+    // 新的顶部导航属性,index表示第几个导航， selected控制被选中导航的样式，name表示导航的名称
+    tab: [
+      {index: 0, selected: true, name: "我的"},
+      {index: 1, selected: false, name: "好友在听"},
+      {index: 2, selected: false, name: "电台"}
+    ]
+  },
+    // 新的绑定导航切换样式方法
+    changeTab: function(event){
+    // 获取点击导航的的data-index属性，从而得知第几个导航被点击
+    var index = event.target.dataset.index,
+        tab = this.data.tab;
+    // 遍历tab数组从而控制当前导航样式
+    for(var i = 0; i < tab.length; i ++) {
+        if(tab[i].index == index) {
+            tab[i].selected = true;
+        } else {
+            tab[i].selected = false;
+        }
+    }
+    // 重新设置切换后导航获取的tab
+    this.setData({
+        tab: tab
+    })
   },
   isShowToast:function(){
     this.setData({
