@@ -22,17 +22,18 @@
 </view>
 <view  class="line"></view>
   <view class="message__list">
-     <block wx:for="{{messages}}" wx:for-index="idx">
 
-          <view class="item-tree" bindtap="bindtap{{idx}}">
+
+     <block wx:for="{{messages}}"  wx:for-index="idx">
+           <!--   <view class="item-tree" bindtap="bindtap{{idx}}"> -->
+           <!---给每个菜单定义一个index值 -->
+          <view class="item-tree" data-index="{{idx}}" bindtap="toPage">
             <image src="{{item.icon}}" class="tree_image_left"/>
             <text class="groumName">{{item.groupName}}</text>
              <image src="{{item.rightImage}}" class="tree_image_right"/>
             </view>
             <view  class="line" wx:if="{{idx==4}}"></view>
          <view  class="line-narrow"wx:if="{{idx!=4}}" ></view>
-
-         
       </block>
   </view>
 </view>

@@ -10,8 +10,12 @@
 </view>
 -->
 <!-- 修改当前导航的选中样式以及切换内容代码 -->
-<view class="tab">
+<!--<view class="tab">
    <view class="{{item.selected == true ? 'select' : 'selectnot'}}" wx:for="{{tab}}" data-index="{{item.index}}" bindtap="changeTab">{{item.name}}</view>
+</view>-->
+<!-- 修改当前导航样式 -->
+<view class="tab" wx:for-index="idx">
+   <view class="{{index ===  Inx? 'select' : 'selectnot'}}" wx:for="{{tab}}" data-index="{{index}}" bindtap="changeTab">{{item}}</view>
 </view>
           <view class="itemtop" >
             <image src="http://img1.3lian.com/gif/more/11/201212/411cffabcd6e4474b48f1ecac76e1b3f.jpg" class="itemtop_left_image"/>

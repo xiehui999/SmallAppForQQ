@@ -54,7 +54,8 @@ Page({
         icon:"/images/class.png",
         rightImage:"/images/tip.png"
         }
-    ]
+    ],
+    idx:0
   },
 
   isShowToast:function(){
@@ -66,6 +67,17 @@ Page({
     this.setData({
       isHiddenToast:true
     })
+  },
+  toPage:function(event){
+          //点击跳转菜单，获取当前的index值
+           var Ind=event.currentTarget.dataset.index;
+           console.log(Ind);
+           switch(Ind){
+             case 3://判断跳转页面
+               wx.navigateTo({
+                 url:"/pages/dynamic/music/music"
+               });
+           }
   },
   bindtap0:function(){
          console.log(0)
@@ -117,5 +129,5 @@ Page({
 wx.navigateTo({
   url: "/pages/message/search/search"
 })
-  },
+  }
 })
