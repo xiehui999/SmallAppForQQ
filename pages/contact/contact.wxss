@@ -80,7 +80,7 @@
     background-color: #F8F9FA;
 }
 .message_list{
-    display: flex;
+  display: flex;
   background-color: #f2f2f2;
   margin-bottom: 15px;
 }
@@ -99,8 +99,8 @@
     position: absolute;
     right: 15rpx;
     color:#808080;
-    font-size: 8rpx;
-    text-align: right;
+    font-size: 18rpx;
+    text-align: right center ;
 }
 .item-tree-middle{
     margin-top: 15rpx;

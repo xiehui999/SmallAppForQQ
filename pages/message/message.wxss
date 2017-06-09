@@ -86,18 +86,19 @@ display: block;
 }
 .time{
     color:#808080;
-    font-size: 8rpx;
+    font-size: 18rpx;
 }
 .mark{
 
-    position:relative;
+    position: relative;
     left:15rpx;
+    right: 35rpx;
     padding-top: 4rpx;
     background-color:#F74c31; 
     text-align: center;
-    font-size: 10rpx; 
-    width: 40rpx;
-    height: 40rpx;
+    font-size: 18rpx; 
+    width: 35rpx;
+    height: 35rpx;
     border-radius:20rpx; 
     color: #ffffff;
     display:table-cell;

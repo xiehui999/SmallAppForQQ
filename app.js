@@ -14,6 +14,8 @@ App({
   },
   getUserInfo:function(cb){
     var that = this
+    this.globalData.user="1111"
+    console.log(this.globalData.user1)
     if(this.globalData.userInfo){
       typeof cb == "function" && cb(this.globalData.userInfo)
     }else{
@@ -31,6 +33,8 @@ App({
     }
   },
   globalData:{
-    userInfo:null
+    userInfo:null,
+    user:'',
+    user1:"222"
   }
 })
