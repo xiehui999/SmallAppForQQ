@@ -1,30 +1,33 @@
-.container{
-display: block;
+.container {
+  display: block;
 }
-.serach{
-    margin-top: 18rpx;
-    margin-left: 25rpx;
-    margin-right: 25rpx;
-    padding-left: 25rpx;
-    background-color: #F3F3F3;
-    border-radius: 12rpx;
 
+.serach {
+  margin-top: 18rpx;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  padding-left: 25rpx;
+  background-color: #f3f3f3;
+  border-radius: 12rpx;
 }
-.serach_view_show{
-    display: block;
-    color: #808080;
-    padding-left: 285rpx;
-    padding-top: 15rpx;
-    padding-bottom: 15rpx;
-    font-size: 18rpx;
-    background-color: #F3F3F3;
-    border-radius: 12rpx;
+
+.serach_view_show {
+  display: block;
+  color: #808080;
+  padding-left: 285rpx;
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+  font-size: 18rpx;
+  background-color: #f3f3f3;
+  border-radius: 12rpx;
 }
-.message_list{
+
+.message_list {
   background-color: #f2f2f2;
   padding-left: 8rpx;
   padding-right: 8rpx;
 }
+
 .item {
   display: flex;
   flex-direction: row;
@@ -34,79 +37,84 @@ display: block;
   margin-right: 8rpx;
   margin-top: 8rpx;
   background-color: #fff;
-/**  border: 1rpx solid #eaeaea;
+  /**  border: 1rpx solid #eaeaea;
   border-bottom: 1rpx solid #d0d0d0;
   border-radius: 5rpx;*/
 }
-.item-left{
-    margin-top: 15rpx;
-    display:table-cell;
-    text-align: center; 
+
+.item-left {
+  margin-top: 15rpx;
+  display: table-cell;
+  text-align: center;
 }
 
-.image{
-
-    width: 88rpx; 
-    height: 88rpx;
-    border-radius: 44rpx; 
-    background-color: #eeeeee;
+.image {
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 44rpx;
+  background-color: #eee;
 }
 
-.item-middle{
-    flex: 1;
-    margin-left: 10rpx;
-    padding-top: 13rpx;
-    overflow: hidden;
+.item-middle {
+  flex: 1;
+  margin-left: 10rpx;
+  padding-top: 13rpx;
+  overflow: hidden;
 }
-.title{
-  color: #000000;
-  font-family:"微软雅黑";
-  font-weight:bold;
+
+.title {
+  color: #000;
+  font-family: "微软雅黑";
+  font-weight: bold;
   line-height: 20rpx;
-  padding: 32rpx 16rpx,0,16rpx;
+  padding: 32rpx 16rpx, 0, 16rpx;
   font-size: 22rpx;
   margin-top: 60rpx;
   overflow: hidden; /*自动隐藏文字*/
-  text-overflow: ellipsis;/*文字隐藏后添加省略号*/
-
+  text-overflow: ellipsis; /*文字隐藏后添加省略号*/
 }
-.message{
-  font-family:"微软雅黑";
+
+.message {
+  font-family: "微软雅黑";
   color: #808080;
   line-height: 10rpx;
   font-size: 16rpx;
-  padding: 0 16rpx,0,16rpx;
+  padding: 0 16rpx, 0, 16rpx;
   overflow: hidden; /**自动隐藏文字*/
-  text-overflow: ellipsis;/**文字隐藏后添加省略号*/
-  white-space: nowrap;/**强制不换行*/
+  text-overflow: ellipsis; /**文字隐藏后添加省略号*/
+  white-space: nowrap; /**强制不换行*/
 }
-.item_right{
-    padding-top: 13rpx;
-    overflow: hidden; 
-}
-.time{
-    color:#808080;
-    font-size: 18rpx;
-}
-.mark{
 
-    position: relative;
-    left:15rpx;
-    right: 35rpx;
-    padding-top: 4rpx;
-    background-color:#F74c31; 
-    text-align: center;
-    font-size: 18rpx; 
-    width: 35rpx;
-    height: 35rpx;
-    border-radius:20rpx; 
-    color: #ffffff;
-    display:table-cell;
+.item_right {
+  padding-top: 13rpx;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.line{
-    height: 1px;
-    width:100%;
-    background-color: #E0E1E2;
+
+.time {
+  color: #808080;
+  font-size: 18rpx;
 }
-.text{
+
+.mark {
+  margin-top: 4rpx;
+  background-color: #f74c31;
+  text-align: center;
+  line-height: 35rpx;
+  font-size: 18rpx;
+  width: 35rpx;
+  height: 35rpx;
+  border-radius: 18rpx;
+  color: #fff;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #e0e1e2;
+}
+
+.text {
 }

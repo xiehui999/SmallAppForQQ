@@ -1,8 +1,8 @@
-<view  stytle=" overflow-x: hidden; overflow-y: auto;">
+<view  stytle=" overflow-x: hidden; overflow-y: auto; ">
 <view class="serach">
 <view class="serach_view_show" bindtap="bindtap"> 搜索</view>
 </view>
-  <view class="message__list">
+  <view class="message_list">
      <block wx:for="{{messages}}">
         <navigator url="/pages/message/chat/chat">
           <view class="item" >
