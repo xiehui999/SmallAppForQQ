@@ -1,0 +1,39 @@
+<!--directory.wxml-->
+<view class="container">
+  <view class="top-menu">
+    <view bindtap="showMenuTap" data-type="1">状态</view>
+    <view class="line"></view>
+    <view bindtap="showMenuTap" data-type="2">时间</view>
+  </view>
+</view>
+<view class="dialog-mask" style="visibility:{{isVisible ? 'visible':'hidden'}}" bindtap="hideMenuTap" />
+<!--状态选择-->
+<!--wxss样式实现方式-->
+<!--<view wx:if="{{menuType==1}}" class="state-menu {{isVisible?'show':'hidden'}}" style="visibility:{{isVisible ? 'visible':'hidden'}}">-->
+<!--api动画方式-->
+<view wx:if="{{menuType==1}}" class="state-menu" animation="{{animationData}}" style="visibility:{{isVisible ? 'visible':'hidden'}}">
+  <view class="state-item {{status==1?'border':''}}" bindtap="selectState" data-status="1">全部</view>
+  <view class="state-item {{status==2?'border':''}}" bindtap="selectState" data-status="2">待付款</view>
+  <view class="state-item {{status==3?'border':''}}" bindtap="selectState" data-status="3">待发货</view>
+  <view class="state-item {{status==4?'border':''}}" bindtap="selectState" data-status="4">配送中</view>
+  <view class="state-item {{status==5?'border':''}}" bindtap="selectState" data-status="5">待收货</view>
+  <view class="state-item {{status==6?'border':''}}" bindtap="selectState" data-status="6">待评价</view>
+  <view class="state-item {{status==7?'border':''}}" bindtap="selectState" data-status="7">退款</view>
+  <view class="state-item {{status==8?'border':''}}" bindtap="selectState" data-status="8">已取消</view>
+</view>
+<!--日期选择-->
+<view wx:elif="{{menuType==2}}" class="state-menu" animation="{{animationData}}" style="visibility:{{isVisible ? 'visible':'hidden'}}">
+  <view class="date">
+    <view class="classname">开始日期: </view>
+    <picker mode="date" value="{{date}}" data-type="1" bindchange="bindDateChange">
+      <view class="classname">{{begin==null?'不限':begin}}</view>
+    </picker>
+  </view>
+  <view class="date">
+    <view class="classname">结束日期: </view>
+    <picker mode="date" value="{{date}}" data-type="2" bindchange="bindDateChange">
+      <view class="classname">{{end==null?'不限' : end}}</view>
+    </picker>
+  </view>
+  <button class="date-btn" bindtap="sureDateTap">确定</button>
+</view>

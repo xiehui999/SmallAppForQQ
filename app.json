@@ -1,7 +1,5 @@
-
 {
-  "pages":[
-
+  "pages": [
     "pages/message/message",
     "pages/contact/contact",
     "pages/dynamic/dynamic",
@@ -9,13 +7,14 @@
     "pages/message/chat/chat",
     "pages/message/search/search",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/study/directory"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#12b7f4",
     "navigationBarTitleText": "WeChatForQQ",
-    "navigationBarTextStyle":"white",
+    "navigationBarTextStyle": "white",
     "backgroundColor": "#fbf9fe"
   },
   "tabBar": {
@@ -23,22 +22,31 @@
     "selectedColor": "#3cc51f",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
-    "list": [{
-      "pagePath": "pages/message/message",
-      "iconPath": "images/tab_message_normal.png",
-      "selectedIconPath": "images/tab_message_selected.png",
-      "text": "消息"
-    }, {
-      "pagePath": "pages/contact/contact",
-      "iconPath": "images/tab_contact_normal.png",
-      "selectedIconPath": "images/tab_contact_selected.png",
-      "text": "联系人"
-    },
-     {
-      "pagePath": "pages/dynamic/dynamic",
-      "iconPath": "images/tab_dynamic_normal.png",
-      "selectedIconPath": "images/tab_dynamic_selected.png",
-      "text": "动态"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "images/tab_message_normal.png",
+        "selectedIconPath": "images/tab_message_selected.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "iconPath": "images/tab_contact_normal.png",
+        "selectedIconPath": "images/tab_contact_selected.png",
+        "text": "联系人"
+      },
+      {
+        "pagePath": "pages/dynamic/dynamic",
+        "iconPath": "images/tab_dynamic_normal.png",
+        "selectedIconPath": "images/tab_dynamic_selected.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/study/directory",
+        "iconPath": "images/tab_dynamic_normal.png",
+        "selectedIconPath": "images/tab_dynamic_selected.png",
+        "text": "文章"
+      }
+    ]
   }
 }
