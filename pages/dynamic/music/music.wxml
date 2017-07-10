@@ -1,64 +1,64 @@
-
- <toast hidden="{{isHiddenToast}}" stytle="display:flex  width:100rpx" duration="1000" bindchange="toastChange">
-    努力开发中...
-  </toast>
-  <!--
-<view  class="tab">
-        <view class="{{select1 == true ? 'select' : 'selectnot'}}" bindtap="tab1">我的</view>
-        <view class="{{select2 == true ? 'select' : 'selectnot'}}" bindtap="tab2" >好友在听</view>
-        <view class="{{select3 == true ? 'select' : 'selectnot'}}" bindtap="tab3">电台</view>
-</view>
--->
+<toast hidden="{{isHiddenToast}}" stytle="display:flex  width:100rpx" duration="1000" bindchange="toastChange">
+  努力开发中...
+</toast>
 <!-- 修改当前导航的选中样式以及切换内容代码 -->
 <!--<view class="tab">
    <view class="{{item.selected == true ? 'select' : 'selectnot'}}" wx:for="{{tab}}" data-index="{{item.index}}" bindtap="changeTab">{{item.name}}</view>
 </view>-->
 <!-- 修改当前导航样式 -->
 <view class="tab" wx:for-index="idx">
-   <view class="{{index ===  Inx? 'select' : 'selectnot'}}" wx:for="{{tab}}" data-index="{{index}}" bindtap="changeTab">{{item}}</view>
+  <view class="{{index ===  Inx? 'select' : 'selectnot'}}" wx:for="{{tab}}" data-index="{{index}}" bindtap="changeTab">{{item}}</view>
 </view>
-          <view class="itemtop" >
-            <image src="http://img1.3lian.com/gif/more/11/201212/411cffabcd6e4474b48f1ecac76e1b3f.jpg" class="itemtop_left_image"/>
-             <view class="item-middle">
-                  <view>
-                       <text class="itemtop_mess">Code4Android</text>
-                  </view>
-                  <view>
-                      <text class="itemtop_mess2">好友排行</text>
-                  </view>
-            </view>
-            <view class="item_right">
-                <view><text class="time">{{item.time}}</text></view>
-                <image src="/images/tip.png" class="image"/>
-            </view>
-         </view>
-         <view  class="line"></view>
-<view  class="item">
-    <view class="item_left"  bindtap="isShowToast">
-        <image src="/images/like.png" class="image"/>
-        <view class="mark" ><text class="text">我喜欢</text></view>
+<view class="itemtop">
+  <image src="http://img1.3lian.com/gif/more/11/201212/411cffabcd6e4474b48f1ecac76e1b3f.jpg" class="itemtop_left_image" />
+  <view class="item-middle">
+    <view>
+      <text class="itemtop_mess">Code4Android</text>
     </view>
-    <view class="item_middle" bindtap="isShowToast">
-        <image src="/images/songmenu.png" class="image"/>
-        <view class="mark" ><text class="text">我的歌单</text></view>
+    <view>
+      <text class="itemtop_mess2">好友排行</text>
     </view>
-    <view class="item_right" bindtap="isShowToast">
-        <image src="/images/replay.png" class="image"/>
-        <view class="mark" ><text class="text">最近播放</text></view>
+  </view>
+  <view class="item_right">
+    <view>
+      <text class="time">{{item.time}}</text>
     </view>
+    <image src="/images/tip.png" class="image" />
+  </view>
 </view>
-<view  class="linesmall"></view>
-<view  class="item-tree">
-        <image src="/images/start.png" bindtap="randomStart"   class="startImage"/>
-        <view class="randomStart" bindtap="randomStart" >随机播放</view>
-        <image src="/images/download.png"    class="downImage"/>
-        <view class="download" >下载到手机</view>
+<view class="line"></view>
+<view class="item">
+  <view class="item_left" bindtap="isShowToast">
+    <image src="/images/like.png" class="image" />
+    <view class="mark">
+      <text class="text">我喜欢</text>
+    </view>
+  </view>
+  <view class="item_middle" bindtap="isShowToast">
+    <image src="/images/songmenu.png" class="image" />
+    <view class="mark">
+      <text class="text">我的歌单</text>
+    </view>
+  </view>
+  <view class="item_right" bindtap="isShowToast">
+    <image src="/images/replay.png" class="image" />
+    <view class="mark">
+      <text class="text">最近播放</text>
+    </view>
+  </view>
 </view>
-<view  class="linesmall"></view>
-<view class="song_item"  wx:for="{{songlist}}"  bindtap="play" data-num="{{index}}">
-      <image class="song_image" src="{{item.albumpic_small}}"></image>
-       <view class="song_info">
-            <text class="songname">{{item.songname}}</text>
-            <text class="singername">{{item.singername}}</text>
-       </view>
+<view class="linesmall"></view>
+<view class="item-tree">
+  <image src="/images/start.png" bindtap="randomStart" class="startImage" />
+  <view class="randomStart" bindtap="randomStart">随机播放</view>
+  <image src="/images/download.png" class="downImage" />
+  <view class="download">下载到手机</view>
+</view>
+<view class="linesmall"></view>
+<view class="song_item" wx:for="{{contentlist}}" bindtap="play" data-num="{{index}}">
+  <image class="song_image" src="{{item.albumpic_small}}"></image>
+  <view class="song_info">
+    <text class="songname">{{item.songname}}</text>
+    <text class="singername">{{item.singername}}</text>
+  </view>
 </view>

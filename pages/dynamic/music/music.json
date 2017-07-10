@@ -1,3 +1,4 @@
 {
-    "navigationBarTitleText": "音乐"
+    "navigationBarTitleText": "音乐",
+    "enablePullDownRefresh": true
 }

@@ -9,157 +9,178 @@
   margin-right: 72rpx;
   background-color: #fff;
 }
+
 .item-tree {
   display: flex;
   padding-left: 32rpx;
   margin-top: 7rpx;
-   margin-bottom: 7px;
+  margin-bottom: 7px;
 }
-.randomStart{
-  color: #000000;
-  font-family:"微软雅黑";
-  font-weight:bold;
+
+.randomStart {
+  color: #000;
+  font-family: "微软雅黑";
+  font-weight: bold;
   font-size: 22rpx;
   padding-top: 13rpx;
   padding-left: 25rpx;
 }
-.download{
+
+.download {
   position: absolute;
   right: 80rpx;
-  color: #000000;
-  font-family:"微软雅黑";
-  font-weight:bold;
+  color: #000;
+  font-family: "微软雅黑";
+  font-weight: bold;
   font-size: 22rpx;
   padding-top: 13rpx;
   padding-left: 1rpx;
 }
-.startImage{
-    width: 44rpx; 
-    height: 44rpx;
-    padding-top: 10rpx;
+
+.startImage {
+  width: 44rpx;
+  height: 44rpx;
+  padding-top: 10rpx;
 }
-.downImage{
-    width: 44rpx; 
-    height: 44rpx;
-    margin-left: 285rpx;
-    padding-top: 10rpx;
+
+.downImage {
+  width: 44rpx;
+  height: 44rpx;
+  margin-left: 285rpx;
+  padding-top: 10rpx;
 }
-.itemtop{
+
+.itemtop {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   margin-left: 10rpx;
   margin-bottom: 13rpx;
   margin-top: 13rpx;
   margin-right: 72rpx;
 }
-.itemtop_left_image{
-    margin-top: 10rpx;
-    margin-left: 10rpx;
-    margin-right: 25rpx;
-    width: 88rpx; 
-    height: 88rpx;
-    border-radius: 44rpx; 
-}
-.item_left{
-    margin-top: 10rpx;
-    display: table-column;
-}
-.item_middle{
-    display: table-column;
-    margin-top: 10rpx;
-    margin-left: 10rpx;
-}
-.item_right{
-   display: table-column;
-    margin-top: 10rpx;
 
+.itemtop_left_image {
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  margin-right: 25rpx;
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 44rpx;
 }
-.itemtop_mess{
-  font-weight:bold;
-  color: #000000;
-  font-family:"微软雅黑";
-  font-size:22rpx;
+
+.item_left {
+  margin-top: 10rpx;
+  display: table-column;
 }
-.itemtop_mess2{
-     color: #787878;
-     font-size:16rpx;
+
+.item_middle {
+  display: table-column;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
 }
-.line{
-    height: 36rpx;
-    width:100%;
-    background-color: #F8F9FA;
+
+.item_right {
+  display: table-column;
+  margin-top: 10rpx;
 }
-.linesmall{
-    height: 1px;
-    width:100%;
-    background-color: #F8F9FA;
+
+.itemtop_mess {
+  font-weight: bold;
+  color: #000;
+  font-family: "微软雅黑";
+  font-size: 22rpx;
 }
-.text{
-  color: #000000;
-  font-family:"微软雅黑";
-  font-weight:bold;
+
+.itemtop_mess2 {
+  color: #787878;
+  font-size: 16rpx;
+}
+
+.line {
+  height: 36rpx;
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+.linesmall {
+  height: 1px;
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+.text {
+  color: #000;
+  font-family: "微软雅黑";
+  font-weight: bold;
   line-height: 10rpx;
   font-size: 22rpx;
   padding-left: 1rpx;
 }
 
-.image{
-    width: 88rpx; 
-    height: 88rpx;
-    text-align: center;
-}
-.tab{
-	width: 100%;
-	border-bottom: 1rpx solid #eee;
-	text-align: center;
-	line-height: 2rem;
-}
-.tab view{
-    display: inline-block;
-	width: 250rpx;
-}
-.select{
-	color: #3eb94e;
-	border-bottom: 5rpx solid #3eb94e;
-}
-.selectnot{
-	color: #787878;
-}
-.song_item{
-    height:80rpx;
-    width:100%;
-    display: flex;
-    flex: row;
-    border-bottom: #eeeeee 1rpx solid;
-    padding:10rpx 10rpx 10rpx 10rpx;
-    align-items: center;
-}
-.song_image{
-    height:80rpx;
-    width:80rpx;
-    margin-left: 30rpx;
-    border-radius: 10rpx;
+.image {
+  width: 88rpx;
+  height: 88rpx;
+  text-align: center;
 }
 
-.song_info{
-    display: block;
-    margin-left: 20rpx;
+.tab {
+  width: 100%;
+  border-bottom: 1rpx solid #eee;
+  text-align: center;
+  line-height: 2rem;
 }
-.songname{
-    font-weight:bold;
-    color: #000000;
-    font-family:"微软雅黑";
-    font-size:20rpx;
-    line-height: 20px;
-    display:block;/*内联对象需加*/ 
-    width:550rpx; 
-    word-break:keep-all;/* 不换行 */ 
-    white-space:nowrap;/* 不换行 */ 
-    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */ 
-    text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/ 
+
+.tab view {
+  display: inline-block;
+  width: 250rpx;
 }
-.singername{
-     color: #787878;
-     font-size:16rpx;
-     line-height: 20px;
+
+.select {
+  color: #3eb94e;
+  border-bottom: 5rpx solid #3eb94e;
+}
+
+.selectnot {
+  color: #787878;
+}
+
+.song_item {
+  height: 80rpx;
+  width: 100%;
+  display: flex;
+  flex: row;
+  border-bottom: #eee 1rpx solid;
+  padding: 10rpx 10rpx 10rpx 10rpx;
+  align-items: center;
+}
+
+.song_image {
+  height: 80rpx;
+  width: 80rpx;
+  margin-left: 30rpx;
+  border-radius: 10rpx;
+}
+
+.song_info {
+  display: block;
+  margin-left: 20rpx;
+}
+
+.songname {
+  color: #000;
+  font-family: "微软雅黑";
+  font-size: 13pt;
+  line-height: 20px;
+  display: block; /*内联对象需加*/
+  width: 550rpx;
+  word-break: keep-all; /* 不换行 */
+  white-space: nowrap; /* 不换行 */
+  overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+  text-overflow: ellipsis; /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+.singername {
+  color: #787878;
+  font-size: 10pt;
+  line-height: 20px;
 }
